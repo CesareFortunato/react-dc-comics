@@ -7,8 +7,15 @@
 
 /* regole header */
 
-figure{
-    text-align: center;
+figure{        
+    height: 80%;    
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-top: 5px;
+}
+
+figure img{
+    height: 100%;
 }
 
 nav{
@@ -20,11 +27,15 @@ ul{
     padding: 0;
     justify-content: center;
     margin: 30px;
+    margin-left: 150px;
 }
 
 ul li{
     list-style-type: none;
     font-weight: bold;
+    padding: 10px;
+    color: #464b4f;
+
 }
 
 ul li a{
@@ -35,4 +46,10 @@ ul li a{
 ul li a.active,
 ul li a:hover{
     background: lightblue;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
 }
