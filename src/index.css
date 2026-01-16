@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* regole header */
+
+figure{
+    text-align: center;
+}
+
+nav{
+    font: sans-serif;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    margin: 30px;
+}
+
+ul li{
+    list-style-type: none;
+    font-weight: bold;
+}
+
+ul li a{
+    padding: 10px;
+    transition: background 0.4s;
+}
+
+ul li a.active,
+ul li a:hover{
+    background: lightblue;
+}

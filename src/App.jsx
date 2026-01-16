@@ -1,11 +1,16 @@
-
+import MainHeader from "./components/MainHeader"
+import MainContent from "./components/MainContent"
+import MainFooter from "./components/MainFooter"
 
 function App() {
 
 
   return (
-    <h1>ciaoooone
-    </h1>
+    <>
+      <MainHeader />
+      <MainContent />
+      <MainFooter />
+    </>
   )
 }
 
