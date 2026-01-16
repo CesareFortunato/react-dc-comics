@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,22 +7,22 @@
 
 /* regole header */
 
-figure{        
-    height: 80%;    
+figure {
+    height: 80%;
     margin-left: 150px;
     margin-right: 200px;
     margin-top: 5px;
 }
 
-figure img{
+figure img {
     height: 100%;
 }
 
-nav{
+nav {
     font: sans-serif;
 }
 
-ul{
+ul {
     display: flex;
     padding: 0;
     justify-content: center;
@@ -30,7 +30,7 @@ ul{
     margin-left: 150px;
 }
 
-ul li{
+ul li {
     list-style-type: none;
     font-weight: bold;
     padding: 10px;
@@ -38,18 +38,46 @@ ul li{
 
 }
 
-ul li a{
+ul li a {
     padding: 10px;
     transition: background 0.4s;
 }
 
 ul li a.active,
-ul li a:hover{
+ul li a:hover {
     background: lightblue;
 }
 
-header{
-    height: 100px;
+header {
+    height: 80px;
     display: flex;
     justify-content: space-around;
+}
+
+/* regole main */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+.blu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: blue;
+    height: 150px;
+}
+
+
+.main-content-footer {
+    color: white;
 }
