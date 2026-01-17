@@ -155,21 +155,34 @@ h1 {
     margin-left: 200px;
 }
 
-/* regole sub-footer */ 
+/* regole sub-footer */
 
-.sub-footer{
+.sub-footer {
     background-color: #464b4f;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     height: 100px;
 }
 
-.list-Subfooter{
+.list-Subfooter {
     display: flex;
     align-items: center;
 }
 
-.cta-icons{
+.cta-icons {
     display: flex;
     align-items: center;
+}
+
+.sign-button {
+    background-color: #464b4f;
+    color: white;
+    border: 4px solid blue;
+    font-size: 16px;
+    padding: 6px 16px;
+}
+
+.column-subFooter .footer-titles {
+    color: blue;
 }

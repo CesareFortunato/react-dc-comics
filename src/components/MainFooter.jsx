@@ -1,5 +1,10 @@
 import footerBg from '../assets/footer-bg.jpg';
-import footerLogo from '../assets/dc-logo-bg.png'
+import footerLogo from '../assets/dc-logo-bg.png';
+import FB from '../assets/footer-facebook.png';
+import Twitter from '../assets/footer-twitter.png';
+import Youtube from '../assets/footer-youtube.png';
+import Pinterest from '../assets/footer-pinterest.png';
+import Maps from '../assets/footer-periscope.png';
 
 function MainFooter() {
 
@@ -65,17 +70,17 @@ function MainFooter() {
 
       <div className='sub-footer'>
         <button className='sign-button'>
-        premimi
+          SIGN-UP NOW!
         </button>
         <div className='cta-icons'>
-        <div className='column-subFooter'>
+          <div className='column-subFooter'>
             <ul className='list-Subfooter'>
-              <li className='el-footer, footer-titles'>SITES</li>
-              <li className='el-footer'>DC</li>
-              <li className='el-footer'>MAD Magazine</li>
-              <li className='el-footer'>DC Kids</li>
-              <li className='el-footer'>DC Universe</li>
-              <li className='el-footer'>DC Power Visa</li>
+              <li className='el-footer, footer-titles'>FOLLOW US</li>
+              <li><img src={FB} alt="" /></li>
+              <li><img src={Twitter} alt="" /></li>
+              <li><img src={Youtube} alt="" /></li>
+              <li><img src={Pinterest} alt="" /></li>
+              <li><img src={Maps} alt="" /></li>
             </ul>
           </div>
         </div>
