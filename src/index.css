@@ -62,7 +62,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 1000px;
     background-color: black;
 }
 
@@ -157,3 +157,19 @@ h1 {
 
 /* regole sub-footer */ 
 
+.sub-footer{
+    background-color: #464b4f;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.list-Subfooter{
+    display: flex;
+    align-items: center;
+}
+
+.cta-icons{
+    display: flex;
+    align-items: center;
+}

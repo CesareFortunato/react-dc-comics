@@ -61,13 +61,15 @@ function MainFooter() {
           <img src={footerLogo} alt="" />
         </figure>
       </div>
+
+
       <div className='sub-footer'>
         <button className='sign-button'>
         premimi
         </button>
         <div className='cta-icons'>
         <div className='column-subFooter'>
-            <ul className='list-footer'>
+            <ul className='list-Subfooter'>
               <li className='el-footer, footer-titles'>SITES</li>
               <li className='el-footer'>DC</li>
               <li className='el-footer'>MAD Magazine</li>
