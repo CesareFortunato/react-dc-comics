@@ -108,3 +108,31 @@ h1 {
     padding: 0;
     list-style: none;
 }
+
+
+/* regole footer */
+
+
+.list-footer {
+    display: block;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../src/assets/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.el-footer{
+    color: white;
+}
+
+.footer-titles{
+    color: white;
+}
+
+.list-footer{
+    align-content: ;
+}
