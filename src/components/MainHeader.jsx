@@ -9,7 +9,7 @@ function MainHeader() {
     <img src={logo} alt="" />
    </figure>
    <nav>
-    <ul>
+    <ul className='header-lists'>
       <li>CHARACTERS</li>
       <li>COMICS</li>
       <li>MOVIES</li>

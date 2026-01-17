@@ -24,7 +24,7 @@ nav {
     align-items: center
 }
 
-ul {
+.header-lists {
     display: flex;
     padding: 0;
     justify-content: center;
@@ -114,7 +114,8 @@ h1 {
 
 
 .list-footer {
-    display: block;
+    margin-left: 100px;
+      margin-top: 100px;
 }
 
 .container-footer {
@@ -127,6 +128,7 @@ h1 {
 
 .el-footer{
     color: white;
+    align-items: end;
 }
 
 .footer-titles{
@@ -134,5 +136,5 @@ h1 {
 }
 
 .list-footer{
-    align-content: ;
+    
 }
