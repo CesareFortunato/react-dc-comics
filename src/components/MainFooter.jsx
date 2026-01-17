@@ -61,6 +61,23 @@ function MainFooter() {
           <img src={footerLogo} alt="" />
         </figure>
       </div>
+      <div className='sub-footer'>
+        <button className='sign-button'>
+        premimi
+        </button>
+        <div className='cta-icons'>
+        <div className='column-subFooter'>
+            <ul className='list-footer'>
+              <li className='el-footer, footer-titles'>SITES</li>
+              <li className='el-footer'>DC</li>
+              <li className='el-footer'>MAD Magazine</li>
+              <li className='el-footer'>DC Kids</li>
+              <li className='el-footer'>DC Universe</li>
+              <li className='el-footer'>DC Power Visa</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
 
     </>
