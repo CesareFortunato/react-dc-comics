@@ -6,6 +6,10 @@
         Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body {
+    background-color: #464b4f;
+}
+
 
 /* regole header */
 
@@ -59,7 +63,7 @@ header {
 /* regole main */
 
 main {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     height: 1000px;
@@ -68,6 +72,13 @@ main {
 
 h1 {
     color: white;
+}
+
+.jumbotron {
+    background-image: url("../src/assets/jumbotron.jpg");
+    height: 400px;
+    background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .blu-container {
@@ -163,6 +174,11 @@ h1 {
     align-items: center;
     justify-content: space-around;
     height: 100px;
+
+    position: relative;
+    z-index: 3;
+    transform: translateY(-80px);
+    margin-top: -80px;
 }
 
 .list-Subfooter {

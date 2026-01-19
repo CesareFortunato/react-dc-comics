@@ -1,4 +1,6 @@
 import MainContentFooter from "./MainContentFooter"
+import Jumbotron from "./Jumbotron"
+import Comics from "./Comics"
 
 function MainContent() {
 
@@ -6,9 +8,8 @@ function MainContent() {
   return (
 <>
     <main>
-      <div>
-        <h1>  content goes here  </h1>
-      </div>
+      <Jumbotron/>
+      <Comics />
 
       
     </main>
