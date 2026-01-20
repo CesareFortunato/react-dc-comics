@@ -13,6 +13,10 @@ body {
 
 /* regole header */
 
+header {
+    background-color: white;
+}
+
 figure {
     height: 80%;
     margin-left: 150px;
@@ -66,7 +70,6 @@ main {
     display: block;
     justify-content: center;
     align-items: center;
-    height: 1000px;
     background-color: black;
 }
 
@@ -90,49 +93,49 @@ h1 {
 
 .comics-grid {
     width: 1200px;
-  margin: 0 auto;
+    margin: 0 auto;
 
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .col-6 {
-  width: calc(100% / 6);
-  padding: 15px 10px;
-  box-sizing: border-box;
+    width: calc(100% / 6);
+    padding: 15px 10px;
+    box-sizing: border-box;
 }
 
 /* card */
 
 .card {
-  color: #fff;
+    color: #fff;
 }
 
 .card-media {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  overflow: hidden;
-  background-color: #111;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background-color: #111;
 }
 
 .card-media img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 
-  transition: transform 0.2s ease;
+    transition: transform 0.2s ease;
 }
 
 
-.card-title{
-     margin-top: 10px;
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  line-height: 1.2;
-  overflow: hidden;
+.card-title {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    line-height: 1.2;
+    overflow: hidden;
 }
 
 /* blu section */
@@ -142,10 +145,10 @@ h1 {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    background-color: blue;
+    background-color: #0282f9;
     height: 150px;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 
@@ -190,7 +193,9 @@ h1 {
     background-size: cover;
     position: relative;
     z-index: 1;
-    transform: translateY(-80px);
+    margin-top: -80px;
+    padding-top: 120px;
+    padding-bottom: 90px;
 }
 
 .el-footer {
@@ -218,7 +223,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-content: baseline;
-    margin-top: 150px;
+    margin-top: 0px;
     margin-left: 200px;
 }
 
@@ -229,12 +234,10 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 100px;
-
     position: relative;
-    z-index: 3;
-    transform: translateY(-80px);
-    margin-top: -80px;
+    z-index: 4;
+    margin-top: -50px;
+    padding: 25px 0;
 }
 
 .list-Subfooter {
@@ -250,11 +253,11 @@ h1 {
 .sign-button {
     background-color: #464b4f;
     color: white;
-    border: 4px solid blue;
+    border: 4px solid #0282f9;
     font-size: 16px;
     padding: 6px 16px;
 }
 
 .column-subFooter .footer-titles {
-    color: blue;
+    color: #0282f9;
 }
