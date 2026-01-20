@@ -1,4 +1,5 @@
 import ComicJS from '../comics.js'
+import Card from './Card.jsx'
 
 function Comics() {
 
@@ -7,14 +8,16 @@ function Comics() {
 <>
     <div className="comics-section">
       <div className="comics-grid">
-        {ComicJS.map((c) => (
-          <article className="comic-card" key={c.id}>
-            <div className="comic-thumb">
-              <img src={c.thumb} alt={c.title} />
-            </div>
-            <div className="comic-title">{c.title}</div>
-          </article>
-        ))}
+         {ComicJS.map((comic) => (
+          <Card 
+          id={comic.key}
+          image={comic.thumb}
+          title={comic.title}
+          />
+        ))} 
+        
+        
+
       </div>
     </div>
 </>
