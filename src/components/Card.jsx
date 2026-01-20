@@ -1,12 +1,16 @@
-
-
 export default function Card(props) {
-    return (
-        <div className="card" key={props.id}>
-            <img src={props.image} alt={props.title} />
-            <h3>{props.title}</h3>
-        </div>
+  return (
+    <article className="card">
+      <div className="card-media">
+        <img
+          src={props.image}
+          alt={props.title}
+        />
+      </div>
 
-    );
+      <h3 className="card-title">
+        {props.title}
+      </h3>
+    </article>
+  )
 }
-
